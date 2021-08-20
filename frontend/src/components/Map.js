@@ -183,7 +183,7 @@ export const PlacesWithStandaloneSearchBox = compose(
   <div data-standalone-searchbox="" >
     <h1 style={{textAlign:'center'}}>ATTENDANCE MAP</h1>
     <h6 style={{textAlign:'center'}}>
-      For this map, you can search for the places you want to visit and check theirs attendance.
+      For this map, you can search for the any place you want to visit and check the current attendance there.
       You can also add or remove your attendance at a certain place to help other users be informed about the destination. 
     </h6>    
     <div style={{flexDirection:'column',display:'flex',alignItems:'center',justifyContent:'center',margin:"5%"}}>
@@ -194,12 +194,12 @@ export const PlacesWithStandaloneSearchBox = compose(
       >
         <input
           type="text"
-          placeholder="Customized your placeholder"
+          placeholder="Enter your destination or any general place you want to visit"
           style={{
             boxSizing: `border-box`,
             border: `1px solid transparent`,
-            width: `240px`,
-            height: `32px`,
+            width: `400px`,
+            height: `40px`,
             padding: `0 12px`,
             borderRadius: `3px`,
             boxShadow: `0 2px 6px rgba(0, 0, 0, 0.3)`,
