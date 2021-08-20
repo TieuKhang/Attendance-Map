@@ -182,6 +182,10 @@ export const PlacesWithStandaloneSearchBox = compose(
 )(props =>
   <div data-standalone-searchbox="" >
     <h1 style={{textAlign:'center'}}>ATTENDANCE MAP</h1>
+    <h6 style={{textAlign:'center'}}>
+      For this map, you can search for the places you want to visit and check theirs attendance.
+      You can also add or remove your attendance at a certain place to help other users be informed about the destination. 
+    </h6>    
     <div style={{flexDirection:'column',display:'flex',alignItems:'center',justifyContent:'center',margin:"5%"}}>
       <StandaloneSearchBox
         ref={props.onSearchBoxMounted}
