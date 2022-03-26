@@ -1,0 +1,81 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "restaurants",
+        "patterns": [
+          "Where is the nearest restaurants to me?",
+          "Recommend me some restaurants?",
+          "How do I find a restaurant in this neighbourhood?"
+        ],
+        "responses": [
+          "You can search nearby restaurants by typing restaurants in the search box",
+          "You can refer to this page to find recommended restaurants: https://www.tripadvisor.ca/Restaurants"
+        ]
+      },
+      {
+        "tag": "contact",
+        "patterns": [
+          "I want to contact the developer of this page.",
+          "Where can I contact the dev of the page?",
+          "Who to contact for help of this page?"
+        ],
+        "responses": [
+          "You can email me at k4tieu@uwaterloo.ca.",
+          "You can call me at 437-929-7617"
+        ]
+      },
+      {
+        "tag": "code",
+        "patterns": [
+          "Can I see the source code of the site?",
+          "Where is the code?"
+        ],
+        "responses": [
+          "https://github.com/TieuKhang/Attendance-Map"
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      }
+    ]
+  }

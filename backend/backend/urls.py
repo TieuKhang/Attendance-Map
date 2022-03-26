@@ -25,4 +25,5 @@ router.register(r'locationinfos', views.LocationinfoView, 'locationinfos')
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
+    path('api/chatwithbot', views.aiChatBot)
 ]
