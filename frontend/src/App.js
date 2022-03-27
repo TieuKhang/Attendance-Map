@@ -8,7 +8,7 @@ const App = () => {
   const [botResponse,setBotResponse] = useState("")
 
   const getChatBotResponse = () => {
-    let botUrl = "http://127.0.0.1:8000"
+    let botUrl = "https://attendance-map.herokuapp.com"
     axios
     .post(`${botUrl}/api/chatwithbot`, {message: userChat})
     .then((res) => {

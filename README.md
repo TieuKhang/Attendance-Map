@@ -11,3 +11,6 @@ Start server: python manage.py runserver
 
 Chatbot functionality was based on this tutorial: 
 https://www.python-engineer.com/posts/chatbot-pytorch/ Patrick Loeber
+
+Deploy react app to gcp:
+https://javascript.plainenglish.io/quickly-deploy-your-react-app-on-googles-app-engine-6bb97480cc9c
