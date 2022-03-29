@@ -9,7 +9,8 @@ const App = () => {
   const [botResponse,setBotResponse] = useState("")
 
   const getChatBotResponse = () => {
-    let botUrl = process.env.API_ENDPOINT;
+    let botUrl = process.env.REACT_APP_API_ENDPOINT;
+    console.log(botUrl)
     axios
     .post(`${botUrl}/api/chatwithbot`, {message: userChat})
     .then((res) => {

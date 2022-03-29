@@ -10,7 +10,7 @@ const {
 } = require("react-google-maps");
 const { StandaloneSearchBox } = require("react-google-maps/lib/components/places/StandaloneSearchBox");
 require('dotenv').config();
-const url = process.env.API_ENDPOINT;
+const url = process.env.REACT_APP_API_ENDPOINT;
 
 
 const MapWithAMarker = compose(withScriptjs, withGoogleMap)(props => {
