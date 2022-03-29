@@ -1,6 +1,7 @@
 import React, { Component,useState,useEffect} from "react";
 import {PlacesWithStandaloneSearchBox} from "./components/Map";
 import axios from "axios";
+require('dotenv').config();
 
 const App = () => {
   const [location,setLocation] = useState({lat:0,lng:0})
@@ -8,7 +9,7 @@ const App = () => {
   const [botResponse,setBotResponse] = useState("")
 
   const getChatBotResponse = () => {
-    let botUrl = "http://attendance-map-env.eba-dfesbxdd.us-east-1.elasticbeanstalk.com"
+    let botUrl = process.env.API_ENDPOINT;
     axios
     .post(`${botUrl}/api/chatwithbot`, {message: userChat})
     .then((res) => {

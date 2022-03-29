@@ -10,7 +10,7 @@ const {
 } = require("react-google-maps");
 const { StandaloneSearchBox } = require("react-google-maps/lib/components/places/StandaloneSearchBox");
 require('dotenv').config();
-const url = "http://attendance-map-env.eba-dfesbxdd.us-east-1.elasticbeanstalk.com"
+const url = process.env.API_ENDPOINT;
 
 
 const MapWithAMarker = compose(withScriptjs, withGoogleMap)(props => {
